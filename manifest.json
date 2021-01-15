@@ -1,0 +1,11 @@
+{
+    "name": "pedrogomes.dev",
+    "short_name": "pedrogomes.dev",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#C0BAB2",
+    "theme_color": "#C0BAB2",
+    "description": "pedrogomes.dev portfolio.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}

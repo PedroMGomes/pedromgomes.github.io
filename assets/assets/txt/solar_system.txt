@@ -1,0 +1,3 @@
+My first project made with OpenGL was to develop an inaccurate simulation of our solar system. I used GLEW extension loading library to access OpenGL and FreeGLUT obtain a system window and handle user inputs.
+
+Planet sizes are proportional between one another, as well as the distance. But the distance and size are not on the same scale. The sun is also smaller as its massive size would occupy the entire view.

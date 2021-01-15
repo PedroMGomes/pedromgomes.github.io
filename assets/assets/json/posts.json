@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Flutter",
+    "description": "Flutter is a recent software development framework from Google to develop applications for Android, iOS, the Web and Desktop. I've been using Flutter non-professionally for a while, developing internal projects, such as this website, while getting acquainted with every aspect of the framework and its most used packages from pub.dev. \nCheck some of my work here.",
+    "tags": [
+      "Web",
+      "Mobile",
+      "Flutter",
+      "Dart",
+      "Visual Studio Code"
+    ],
+    "path": "assets/txt/flutter.txt"
+  },
+  {
+    "title": "Vulkan and OpenGL Benchmark",
+    "description": "Project aimed to learn both Vulkan, a fairly recent cross-platform 3D graphics and computing API, and OpenGL, another 3D graphics API that exists for much longer. This was the final project before attaining my graduate degree in Computer Science. It is about memory, an analysis on how both APIs abstract memory and memory usage with a simple performance test.",
+    "tags": [
+      "C++",
+      "Vulkan",
+      "OpenGL",
+      "GLEW",
+      "GLSL",
+      "GLFW",
+      "Visual Studio"
+    ],
+    "path": "assets/txt/vulkan_opengl.txt"
+  },
+  {
+    "title": "OpenGL Game Engine and Regatearte",
+    "description": "A modest game engine I developed using OpenGL for a gamejam in Museu Soares dos Reis - Porto, Portugal. The engine was used to develop Regatearte in 24h.",
+    "tags": [
+      "C++",
+      "OpenGL",
+      "GLEW",
+      "FreeGLUT",
+      "Visual Studio"
+    ],
+    "path": "assets/txt/gamejam.txt"
+  },
+  {
+    "title": "Genos",
+    "description": "Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application.",
+    "tags": [
+      "C++",
+      "OpenCV",
+      "Visual Studio"
+    ],
+    "path": "assets/txt/genos.txt"
+  },
+  {
+    "title": "Solar System",
+    "description": "First time using OpenGL to develop an unrealistic Solar System.",
+    "tags": [
+      "C++",
+      "OpenGL",
+      "OpenAL",
+      "GLEW",
+      "FreeGLUT",
+      "Visual Studio"
+    ],
+    "path": "assets/txt/solar_system.txt"
+  },
+  {
+    "title": "Raytracer",
+    "description": "A project that has one of the most visually astounding results, simulating light bouncing between rigid objects. With it, I was able to learn and apply math, from basic algebra to Eucledian geometry and trigonometry.",
+    "tags": [
+      "C++",
+      "Visual Studio",
+      "GLM"
+    ],
+    "path": ""
+  }
+]

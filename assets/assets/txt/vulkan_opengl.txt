@@ -1,0 +1,57 @@
+
+&assets/img/models_fullframe.png&
+
+#Intro#
+
+Graphics APIs are often mentioned when discussing performance in video games. Vulkan, OpenGL, and DirectX are famous C/C++ APIs used to manage GPU resources. While the CPU is a general-purpose powerhouse, GPUs are exceptionally good at parallel processing of repetitive tasks and fundamental to render graphics onto the screen.
+
+This project was purely academic and subject of evaluation to acquire my graduate degree in Software Engineering at ISEP. It is a simple benchmark test between Vulkan and OpenGL, APIs that were mostly new to me at the time. My main goal was to get acquainted with how they work and the differences between the two.
+
+Because there wasn't enough time to learn everything, I decided to delve into the memory abstraction layer that both APIs provides, only to find out that Vulkan offers much more control over memory than OpenGL.
+
+The tools used for the development of this project were:
+• Vulkan SDK provided by LunarG.
+• *GLEW*, the OpenGL Extension Library.
+• *GLFW*, a library to manage OS windows, handle inputs and events.
+• *GLM*, a Mathematics Library.
+• *GLSL*, OpenGL Shading language used to write basic Vertex and Fragment Shaders used for this project.
+• Both solutions were developed using Visual Studio IDE with C++.
+• R and R Studio to produce the charts/plots to better vizualize results.
+
+Personally, I found OpenGL to be a lot more straightforward than Vulkan, far less verbose and easy to get things going, such as initializing a window and render elementary shapes. A key difference between the two is how they handle state. The OpenGL context keeps a global state that defines the render pipeline and developers change state properties through GL commands. On the other hand, Vulkan is stateless, extremely verbose and provides more explicit control over the hardware, one being extensive memory management capabilities. Vulkan provides memory properties (;https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VkMemoryPropertyFlagBits.html;) allowing developers to queue for suitable dynamic memory locations. Developers use multiple combinations of those attributes to optimize their application.
+
+OpenGL didn't have, at the time, similar memory specification capabilities. Memory was the subject of analysis for this project. The goal was to implement the various methods to transfer memory between CPU-GPU and benchmark the program.
+
+---
+
+Using Vulkan it is possible to achieve the same result in multiple ways:
+
+• The first approach uses `vkCmdCopyBuffer` to copy data between buffer regions. The CPU writes to a source mappable buffer and data is copied to the destination buffer for GPU access only.
+
+• Second approach uses `vkCmdUpdateBuffer` which allows direct writes to the destination GPU buffer. The buffer is updated between consecutive frames.
+
+• The third copies data with `vkCmdCopyBuffer` from a staging to the destination buffer, but it recreates the latter every frame. The goal was to determine if, for often-changing data, allocating a new buffer would be more performant than reusing the same.
+
+• Lastly, the fourth method uses `vkMapMemory` to map data immediately. This method does not require a Command Buffer and is not submitted to a Vulkan processing queue. Memory requires the `VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT` bit.
+
+With OpenGL the only considered approach was:
+
+• Use `glBufferSubData` to update the destination buffer with new data.
+
+---
+
+Instance Rendering was also tested with both APIs. This technique is optimal to render the exact same data multiple times (not every 3D model you see in your game is different, eg: trees).
+• `vkCmdDraw` on Vulkan.
+• `glDrawArraysInstanced` on OpenGL.
+
+---
+
+The program uses multiple instances of the same model each one with its own model matrix defining their position and orientation relative to (0, 0, 0). Each matrix is updated with different values and used by the GPU to compute the next frame. What is transferred to device accessible memory is exactly the matrix data of the objects being displayed. Workload increases relative to the amount of models present in the scene.
+
+The results are irrelevant as they only reflect data gathered from two machines and there might be other aspects, such as code quality or design decisions, that were overlooked. However, it shows that OpenGL reaches a higher framerate than Vulkan for this application specifically.
+
+---
+
+&assets/img/models_wireframe.png&
+
+&assets/img/models_dotframe.png&
