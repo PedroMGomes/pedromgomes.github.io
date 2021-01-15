@@ -1,0 +1,24 @@
+
+To achieve the intended solution I've used OpenCV that has available the required image processing techniques.
+
+%Background Subtraction%
+&assets/img/bs_sm.png&
+• ~Figure 1:~ Background Subtraction with random noise.
+
+This technique was used to extract the background. Initially, when the user opens the application, the camera collects some samples without the hand and only after the user is able to use the hand. 
+
+---
+
+%Convex Hull and Convex Defects %
+&assets/img/convex_sm.png&
+• ~Figure 2:~ Convex Hull and Convex Defects.
+
+With the results from the background subtraction process the program computes the hand convex hull (green line) and convex defects (blue circles) and uses that data the determine how many fingers are up.
+
+---
+
+%Color Segmentation%
+&assets/img/cs_sm.png&
+• ~Figure 3:~ Color Segmentation (green).
+
+For hand movement, it uses Color Segmentation to filter image data different from the expected. Movement is detected when the center of the figure that results from the Color Segmentation process moves between frames.

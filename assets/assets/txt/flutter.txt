@@ -1,0 +1,14 @@
+
+I've been delving into the Flutter framework to develop mobile applications. Although fairly recent, Flutter already has a decent showcase of applications. Flutter is the perfect tool to not only fast prototype the concept, but also push it to the next level and commit to a fully functional live application in a production environment.
+
+This website was also built using Flutter. Because of it, a single code base can be deployed to the web and on mobile considering a responsive design implementation. This makes the framework extremely relevant for the future of the web and PWAs (Progressive Web Applications) where a single website is able to meet all users' needs, from whatever device they are using to access it.
+
+I always try to develop having scalability as a priority and usually resort to the Flutter (;https://pub.dev;) to use reliable code capable of speeding up development as necessities arise.
+
+---
+
+Here are some of my samples:
+
+[*Work in Progress*]
+
+---

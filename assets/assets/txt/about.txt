@@ -1,0 +1,13 @@
+• I'm Pedro Gomes, a 26 year old Software Engineer with a Master's degree in Computer Science who enjoys programming and technology. This is my webspace with some information about me and a few projects I've worked on (Projects section).
+
+• I have completed my studies at ISEP (Instituto Superior de Engenharia do Porto) in Porto - Portugal, where I also live.
+
+• During my college education I worked professionally for approximately two years with a development stack consisting of Angular, .NET Core, SQL Server, Azure DevOps and occasionally Ionic for mobile.
+
+• Computer Graphics is a field of great interest to me. Being able to visualize how mathematics behaves is a fascinating experience, especially when you're the one writing the code. With that said, most of my personal projects are within this field, where I use graphics APIs such as Vulkan and OpenGL and underlying technologies that come along.
+
+• I've recently fallen in love with the Flutter framework, capable of developing high performance mobile applications for both Android and iOS as well as for the Web and Desktop (Windows, macOS and Linux). My master's dissertation project was a mobile application for the Gig Economy, built using Flutter, with a new communication approach between workers and their customers.
+
+• Aside from programming, if I had to iterate through other things I enjoy doing, sports would definitely appear first. If you want to go for a long hike, swim, or run, and need a partner, give me a call, the more adventurous the offer the faster I accept.
+
+• I have strong communication and cooperation skills.

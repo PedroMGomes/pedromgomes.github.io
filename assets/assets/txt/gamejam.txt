@@ -1,0 +1,34 @@
+
+I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics and GLSL, an OpenGL shading language. The engine itself is nothing fancy as it was developed for the sole purpose of participating in a 24h gamejam event. It allowed me and my team (PIP) to develop a video game for the Gamejam in Museu Soares dos Reis, Porto.
+
+"Engine characteristics"
+
+• Define Game objects as rects.
+• Create actions for a game object.
+• Bind inputs (mouse and keyboard) to an object action.
+• Bind multiple image sequences to an object.
+• Assign a sequence of images to an action.
+• Assign a timer to an image sequence.
+• Colision between game objects.
+• Easily define UI buttons.
+And that's about it.
+
+With it you can animate your game objects by looping through image sequences when triggering a specific action, that can range from directional movement, to attacks, among others. You can define a timer for an image sequence having the engine cycle through the complete sequence within the duration provided. Actions are triggered by underlying game logic or user inputs.
+
+---
+
+&assets/img/regatearte_logo.png&
+
+The game was named *Regatearte* and is about a Portuguese explorer in the Age of Discoveries that travels to locations around the world and finds location-specific treasures while fighting mercenaries. The treasures are brought to Portugal and sold to finance further expeditions with more enticing rewards. 
+
+Take a look:
+
+&assets/img/credits.png&
+
+&assets/img/game_inventory.png&
+
+&assets/img/map.png&
+
+&assets/img/mission1.png&
+
+&assets/img/mission2.png&
