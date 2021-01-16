@@ -9,6 +9,6 @@ I always try to develop having scalability as a priority and usually resort to t
 
 Here are some of my samples:
 
-[*Work in Progress*]
+*Work in Progress*
 
 ---
