@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GLEW on Pedro Gomes</title>
+    <link>https://pedromgomes.github.io/tags/glew/</link>
+    <description>Recent content in GLEW on Pedro Gomes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
+    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/tags/glew/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gamejam &amp; Regatearte</title>
+      <link>https://pedromgomes.github.io/post/gamejam/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/post/gamejam/</guid>
+      <description>I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics and GLSL, an OpenGL shading language. The engine was developed for a single purpose: to allowed me and my team (PIP) to develop a video game for the Gamejam in Museu Soares dos Reis - Porto, in 24 hours.
+Engine characteristics  Define Game objects as rects. Create actions for a game object.</description>
+    </item>
+    
+    <item>
+      <title>Unrealistic Solar System</title>
+      <link>https://pedromgomes.github.io/post/solar_system/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/post/solar_system/</guid>
+      <description>My first project made with OpenGL was to develop an inaccurate simulation of our solar system. I used the GLEW extension loading library to access OpenGL and FreeGLUT to get a system window and handle user inputs.
+Planet sizes are proportional between one another, as well as the distance. But the distance and size are not on the same scale. The sun is also smaller as its massive size would occupy the entire view.</description>
+    </item>
+    
+    <item>
+      <title>Vulkan &amp; OpenGL Memory Benchmark</title>
+      <link>https://pedromgomes.github.io/post/vulkan_opengl/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/post/vulkan_opengl/</guid>
+      <description>Project aimed to learn both Vulkan, a fairly recent cross-platform 3D graphics and computing API, and OpenGL, another 3D graphics API that exists for much longer. This was the final project before attaining my graduate degree in Computer Science. It is about memory, an analysis on how both APIs abstract memory and memory usage with a simple performance test.
+Graphics APIs are often mentioned when discussing performance in video games. Vulkan, OpenGL, and DirectX are famous C/C++ APIs used to manage GPU resources.</description>
+    </item>
+    
+  </channel>
+</rss>

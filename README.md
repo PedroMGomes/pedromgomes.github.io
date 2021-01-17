@@ -1,3 +1,0 @@
-README
-
-My personal website.

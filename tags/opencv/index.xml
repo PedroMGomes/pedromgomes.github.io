@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCV on Pedro Gomes</title>
+    <link>https://pedromgomes.github.io/tags/opencv/</link>
+    <description>Recent content in OpenCV on Pedro Gomes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
+    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genos</title>
+      <link>https://pedromgomes.github.io/post/genos/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/post/genos/</guid>
+      <description>Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&amp;rsquo;ve used OpenCV that has available the required image processing techniques.
+Background Subtraction Figure 1: Background Subtraction with random noiseThis technique was used to extract the background.</description>
+    </item>
+    
+  </channel>
+</rss>
