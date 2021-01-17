@@ -8,11 +8,11 @@
     <language>en-us</language>
     <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
     <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
-    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43;</title>
       <link>https://pedromgomes.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/tags/c&#43;&#43;/</guid>
       <description></description>
@@ -21,7 +21,7 @@
     <item>
       <title>FreeGLUT</title>
       <link>https://pedromgomes.github.io/tags/freeglut/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/tags/freeglut/</guid>
       <description></description>
@@ -30,7 +30,7 @@
     <item>
       <title>GLEW</title>
       <link>https://pedromgomes.github.io/tags/glew/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/tags/glew/</guid>
       <description></description>
@@ -39,7 +39,7 @@
     <item>
       <title>GLFW</title>
       <link>https://pedromgomes.github.io/tags/glfw/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/tags/glfw/</guid>
       <description></description>
@@ -48,7 +48,7 @@
     <item>
       <title>GLSL</title>
       <link>https://pedromgomes.github.io/tags/glsl/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/tags/glsl/</guid>
       <description></description>
@@ -57,9 +57,36 @@
     <item>
       <title>OpenAL</title>
       <link>https://pedromgomes.github.io/tags/openal/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/tags/openal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenGL</title>
+      <link>https://pedromgomes.github.io/tags/opengl/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/tags/opengl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio</title>
+      <link>https://pedromgomes.github.io/tags/visual-studio/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vulkan</title>
+      <link>https://pedromgomes.github.io/tags/vulkan/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/tags/vulkan/</guid>
       <description></description>
     </item>
     
@@ -69,33 +96,6 @@
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/tags/opencv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenGL</title>
-      <link>https://pedromgomes.github.io/tags/opengl/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
-      <guid>https://pedromgomes.github.io/tags/opengl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Studio</title>
-      <link>https://pedromgomes.github.io/tags/visual-studio/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
-      <guid>https://pedromgomes.github.io/tags/visual-studio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vulkan</title>
-      <link>https://pedromgomes.github.io/tags/vulkan/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
-      <guid>https://pedromgomes.github.io/tags/vulkan/</guid>
       <description></description>
     </item>
     

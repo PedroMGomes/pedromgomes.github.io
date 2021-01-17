@@ -15,7 +15,7 @@
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/post/genos/</guid>
-      <description>Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&amp;rsquo;ve used OpenCV that has available the required image processing techniques.
+      <description>Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&amp;rsquo;ve used OpenCV that has the required image processing techniques.
 Background Subtraction Figure 1: Background Subtraction with random noiseThis technique was used to extract the background.</description>
     </item>
     

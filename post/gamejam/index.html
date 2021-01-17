@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Gamejam &amp; Regatearte - Pedro Gomes</title>
-  <meta name="description" content="I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics and GLSL, an OpenGL shading language. The engine was developed for a single purpose: to allowed me and my team (PIP) to develop a video game for the Gamejam in Museu Soares dos Reis - Porto, in 24 hours.
+  <meta name="description" content="I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics, and GLSL (OpenGL shading language). The engine was developed for a single purpose: to allow me and my team (PIP) to develop a video game for a Gamejam in Museu Soares dos Reis - Porto, under 48 hours.
 Engine characteristics  Define Game objects as rects. Create actions for a game object.">
   <meta name="author" content="pedromgomes.github.com"/><script type="application/ld+json">
 {
@@ -58,9 +58,9 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
     "name" : "Pedro Gomes"
   },
   "headline": "Gamejam \u0026 Regatearte",
-  "description" : "I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics and GLSL, an OpenGL shading language. The engine was developed for a single purpose: to allowed me and my team (PIP) to develop a video game for the Gamejam in Museu Soares dos Reis - Porto, in 24 hours.\nEngine characteristics  Define Game objects as rects. Create actions for a game object.",
+  "description" : "I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics, and GLSL (OpenGL shading language). The engine was developed for a single purpose: to allow me and my team (PIP) to develop a video game for a Gamejam in Museu Soares dos Reis - Porto, under 48 hours.\nEngine characteristics  Define Game objects as rects. Create actions for a game object.",
   "inLanguage" : "en",
-  "wordCount":  229 ,
+  "wordCount":  213 ,
   "datePublished" : "2021-01-16T00:00:00",
   "dateModified" : "2021-01-16T00:00:00",
   "image" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
@@ -80,7 +80,7 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
 </script>
 
 <meta property="og:title" content="Gamejam &amp; Regatearte" />
-<meta property="og:description" content="I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics and GLSL, an OpenGL shading language. The engine was developed for a single purpose: to allowed me and my team (PIP) to develop a video game for the Gamejam in Museu Soares dos Reis - Porto, in 24 hours.
+<meta property="og:description" content="I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics, and GLSL (OpenGL shading language). The engine was developed for a single purpose: to allow me and my team (PIP) to develop a video game for a Gamejam in Museu Soares dos Reis - Porto, under 48 hours.
 Engine characteristics  Define Game objects as rects. Create actions for a game object.">
 <meta property="og:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
 <meta property="og:url" content="https://pedromgomes.github.io/post/gamejam/" />
@@ -88,7 +88,7 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
 <meta property="og:site_name" content="Pedro Gomes" />
 
   <meta name="twitter:title" content="Gamejam &amp; Regatearte" />
-  <meta name="twitter:description" content="I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics and GLSL, an OpenGL shading language. The engine was developed …">
+  <meta name="twitter:description" content="I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics, and GLSL (OpenGL shading language). The engine was developed …">
   <meta name="twitter:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="generator" content="Hugo 0.80.0" />
@@ -261,20 +261,19 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics and GLSL, an OpenGL shading language. The engine was developed for a single purpose: to allowed me and my team (PIP) to develop a video game for the Gamejam in Museu Soares dos Reis - Porto, in 24 hours.</p>
+        <p>I developed a small 2D Engine with OpenGL and relevant libraries such as <strong>FreeGLUT</strong> for window and context management, <strong>GLM</strong> for mathematics, and <strong>GLSL</strong> (OpenGL shading language). The engine was developed for a single purpose: to allow me and my team (PIP) to develop a video game for a Gamejam in Museu Soares dos Reis - Porto, under 48 hours.</p>
 <h3 id="engine-characteristics">Engine characteristics</h3>
 <ul>
 <li>Define Game objects as rects.</li>
 <li>Create actions for a game object.</li>
-<li>Bind inputs (mouse and keyboard) to an object action.</li>
-<li>Bind multiple image sequences to an object.</li>
+<li>Bind inputs (mouse and keyboard) to an action.</li>
 <li>Assign a sequence of images to an action.</li>
-<li>Assign a timer to an action.</li>
+<li>Set a timer for an action.</li>
 <li>Colision between game objects.</li>
 <li>Easily define UI buttons.</li>
 </ul>
 <p>And that&rsquo;s about it.</p>
-<p>With it we would animate game objects by looping through sequences of images triggered by an action, that can be either directional movement, attacks, among others. Each action have a timer where for an image sequence having the engine cycle through the complete sequence within the duration provided. Actions are triggered by underlying game logic or user inputs.</p>
+<p>With it we would animate game objects by looping through sequences of images when triggering actions. Once an action is triggered the timer starts and the engine cycles through the image sequence within that timer&rsquo;s duration. An action can be either directional movement, attacks, among others and are triggered by underlying game logic or user inputs.</p>
 
 <link rel="stylesheet" href="https://pedromgomes.github.io/css/hugo-easy-gallery.css" />
 <div class="box" >
@@ -286,7 +285,7 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
   </figure>
 </div>
 
-<p>The game was named <em>Regatearte</em> and is about a Portuguese explorer in the Age of Discoveries that travels to locations around the world and finds location-specific treasures while fighting mercenaries. The treasures are brought to Portugal and sold to finance further expeditions with more enticing rewards.</p>
+<p><em>Regatearte</em> is about a Portuguese explorer in the Age of Discoveries that travels to locations around the world and finds location-specific treasures while fighting mercenaries. The treasures are brought to Portugal and sold to finance further expeditions with more enticing rewards.</p>
 <p>Take a look:</p>
 
 
@@ -374,11 +373,11 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
                   <ul>
                 
                 
-                    <li><a href="/post/genos/">Genos</a></li>
-                
                     <li><a href="/post/solar_system/">Unrealistic Solar System</a></li>
                 
                     <li><a href="/post/vulkan_opengl/">Vulkan &amp; OpenGL Memory Benchmark</a></li>
+                
+                    <li><a href="/post/genos/">Genos</a></li>
                 
               </ul>
 
@@ -393,6 +392,10 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
               <a href="https://pedromgomes.github.io/post/genos/" data-toggle="tooltip" data-placement="top" title="Genos">&larr; Previous Post</a>
             </li>
           
+          
+            <li class="next">
+              <a href="https://pedromgomes.github.io/post/vulkan_opengl/" data-toggle="tooltip" data-placement="top" title="Vulkan &amp; OpenGL Memory Benchmark">Next Post &rarr;</a>
+            </li>
           
         </ul>
       

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Genos - Pedro Gomes</title>
-  <meta name="description" content="Genos was an academic project developed using C&#43;&#43; and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&rsquo;ve used OpenCV that has available the required image processing techniques.
+  <meta name="description" content="Genos was an academic project developed using C&#43;&#43; and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&rsquo;ve used OpenCV that has the required image processing techniques.
 Background Subtraction Figure 1: Background Subtraction with random noiseThis technique was used to extract the background.">
   <meta name="author" content="pedromgomes.github.com"/><script type="application/ld+json">
 {
@@ -58,9 +58,9 @@ Background Subtraction Figure 1: Background Subtraction with random noiseT
     "name" : "Pedro Gomes"
   },
   "headline": "Genos",
-  "description" : "Genos was an academic project developed using C\u002b\u002b and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase\/decrease volume, scroll through a document or close the current application. To achieve the intended solution I\u0026rsquo;ve used OpenCV that has available the required image processing techniques.\nBackground Subtraction \r\rFigure 1: Background Subtraction with random noise\r\r\r\rThis technique was used to extract the background.",
+  "description" : "Genos was an academic project developed using C\u002b\u002b and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase\/decrease volume, scroll through a document or close the current application. To achieve the intended solution I\u0026rsquo;ve used OpenCV that has the required image processing techniques.\nBackground Subtraction \r\rFigure 1: Background Subtraction with random noise\r\r\r\rThis technique was used to extract the background.",
   "inLanguage" : "en",
-  "wordCount":  184 ,
+  "wordCount":  185 ,
   "datePublished" : "2021-01-16T00:00:00",
   "dateModified" : "2021-01-16T00:00:00",
   "image" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
@@ -80,7 +80,7 @@ Background Subtraction Figure 1: Background Subtraction with random noiseT
 </script>
 
 <meta property="og:title" content="Genos" />
-<meta property="og:description" content="Genos was an academic project developed using C&#43;&#43; and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&rsquo;ve used OpenCV that has available the required image processing techniques.
+<meta property="og:description" content="Genos was an academic project developed using C&#43;&#43; and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&rsquo;ve used OpenCV that has the required image processing techniques.
 Background Subtraction Figure 1: Background Subtraction with random noiseThis technique was used to extract the background.">
 <meta property="og:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
 <meta property="og:url" content="https://pedromgomes.github.io/post/genos/" />
@@ -261,7 +261,7 @@ Background Subtraction Figure 1: Background Subtraction with random noiseT
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&rsquo;ve used OpenCV that has available the required image processing techniques.</p>
+        <p>Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&rsquo;ve used OpenCV that has the required image processing techniques.</p>
 <h3 id="background-subtraction">Background Subtraction</h3>
 
 <link rel="stylesheet" href="https://pedromgomes.github.io/css/hugo-easy-gallery.css" />
@@ -276,7 +276,7 @@ Background Subtraction Figure 1: Background Subtraction with random noiseT
   </figure>
 </div>
 
-<p>This technique was used to extract the background. Initially, when the user starts the application, the camera collects some samples without the hand to build the background model. The background is subtracted from the image with the hand.</p>
+<p>This technique was used to extract the background. Initially, when the user starts the application, the camera collects some samples without the hand to build the background model. The background is subtracted from the image with the hand (foreground).</p>
 <h3 id="convex-hull-and-convex-defects">Convex Hull and Convex Defects</h3>
 
 
@@ -306,7 +306,7 @@ Background Subtraction Figure 1: Background Subtraction with random noiseT
   </figure>
 </div>
 
-<p>For hand movement, the program uses Color Segmentation to filter image data different from the expected data. Movement is detected when the center of the figure moves between frames.</p>
+<p>For hand movement, the program uses Color Segmentation to filter image data different from the expected (green color). Movement is detected when the center of the figure moves between frames.</p>
 
 
         
@@ -333,11 +333,11 @@ Background Subtraction Figure 1: Background Subtraction with random noiseT
                   <ul>
                 
                 
-                    <li><a href="/post/gamejam/">Gamejam &amp; Regatearte</a></li>
-                
                     <li><a href="/post/solar_system/">Unrealistic Solar System</a></li>
                 
                     <li><a href="/post/vulkan_opengl/">Vulkan &amp; OpenGL Memory Benchmark</a></li>
+                
+                    <li><a href="/post/gamejam/">Gamejam &amp; Regatearte</a></li>
                 
               </ul>
 
@@ -347,10 +347,6 @@ Background Subtraction Figure 1: Background Subtraction with random noiseT
 
       
         <ul class="pager blog-pager">
-          
-            <li class="previous">
-              <a href="https://pedromgomes.github.io/post/solar_system/" data-toggle="tooltip" data-placement="top" title="Unrealistic Solar System">&larr; Previous Post</a>
-            </li>
           
           
             <li class="next">
