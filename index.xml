@@ -8,7 +8,18 @@
     <language>en-us</language>
     <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
     <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
-    <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infinite Scroll with Flutter List View.</title>
+      <link>https://pedromgomes.github.io/flutter/flutter_infinite_scroll/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/flutter/flutter_infinite_scroll/</guid>
+      <description>Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users&#39; experience. It avoids the download of excess data and the usage of excess memory.
+Final Result The sample application downloads random images from Unsplash.
+   Implement infinite scroll with ListView in Flutter.</description>
+    </item>
+    
     <item>
       <title>Unrealistic Solar System</title>
       <link>https://pedromgomes.github.io/post/solar_system/</link>

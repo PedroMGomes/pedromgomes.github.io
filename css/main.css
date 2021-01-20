@@ -929,6 +929,56 @@ ul.share li .fab {
   transform: scale(1.4)
 }
 
+/* Gists */
+
+
+body .gist .blob-num {
+  color: #ced4da;
+  background-color: #495057;
+  pointer-events: none;
+}
+
+body .gist .blob-code {
+  /* note: what fixes the color. */
+  background: #e0e0e0;
+}
+
+body .gist .blob-wrapper {
+  border-radius: 0;
+}
+
+body .gist .gist-data {
+  border-radius: 0;
+  border-bottom: none;  
+  /* background-color: #f1f3f5;*/
+}
+
+body .gist .gist-file {
+  margin-bottom: 0;
+  border: 0px dashed #adb5bd;
+  border-radius: 0;
+}
+
+body .gist .highlight td {
+  padding: 5px 15px !important;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body .gist tr:first-child td {
+  padding-top: 15px !important;
+}
+
+body .gist tr:last-child td {
+  padding-bottom: 15px !important;
+}
+
+body .gist .gist-meta {
+  /* border-radius: 0px; */ 
+  display: none;
+}
+
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   code {

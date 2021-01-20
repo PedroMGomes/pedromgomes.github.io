@@ -7,7 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Vulkan - Pedro Gomes</title>
+  <title>Infinite Scroll with Flutter List View. - Pedro Gomes</title>
+  <meta name="description" content="Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users&#39; experience. It avoids the download of excess data and the usage of excess memory.
+Final Result The sample application downloads random images from Unsplash.
+   Implement infinite scroll with ListView in Flutter.">
   <meta name="author" content="pedromgomes.github.com"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -28,14 +31,66 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/pedromgomes.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/pedromgomes.github.io\/flutter\/flutter_infinite_scroll\/",
+          "name": "Infinite scroll with flutter list view."
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Pedro Gomes"
+  },
+  "headline": "Infinite Scroll with Flutter List View.",
+  "description" : "Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users\u0027 experience. It avoids the download of excess data and the usage of excess memory.\nFinal Result The sample application downloads random images from Unsplash.\n   Implement infinite scroll with ListView in Flutter.",
+  "inLanguage" : "en",
+  "wordCount":  340 ,
+  "datePublished" : "2021-01-19T00:00:00",
+  "dateModified" : "2021-01-19T00:00:00",
+  "image" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
+  "keywords" : [ "Flutter, Tutorial, ListView, Infinite Scroll" ],
+  "mainEntityOfPage" : "https:\/\/pedromgomes.github.io\/flutter\/flutter_infinite_scroll\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/pedromgomes.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Vulkan" />
+<meta property="og:title" content="Infinite Scroll with Flutter List View." />
+<meta property="og:description" content="Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users&#39; experience. It avoids the download of excess data and the usage of excess memory.
+Final Result The sample application downloads random images from Unsplash.
+   Implement infinite scroll with ListView in Flutter.">
 <meta property="og:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
-<meta property="og:url" content="https://pedromgomes.github.io/tags/vulkan/" />
+<meta property="og:url" content="https://pedromgomes.github.io/flutter/flutter_infinite_scroll/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Pedro Gomes" />
 
-  <meta name="twitter:title" content="Vulkan" />
+  <meta name="twitter:title" content="Infinite Scroll with Flutter List View." />
+  <meta name="twitter:description" content="Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no …">
   <meta name="twitter:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="generator" content="Hugo 0.80.0" />
@@ -183,9 +238,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
+            <div class="flutter-heading">
               
-                <h1>Vulkan</h1>
+                <h1>Infinite Scroll with Flutter List View.</h1>
               
               
                 <hr class="small">
@@ -201,73 +256,77 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users' experience. It avoids the download of excess data and the usage of excess memory.</p>
+<h3 id="final-result">Final Result</h3>
+<p>The sample application downloads random images from <a href="https://source.unsplash.com">Unsplash</a>.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/LIorN7ErVWU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<hr>
+<h3 id="implement-infinite-scroll-with-listview-in-flutter">Implement infinite scroll with ListView in Flutter.</h3>
+<p>We start by creating our Stateful Widget (<code>InfiniteList</code>) with the required properties from where we&rsquo;ll implement the infinite scroll functionality. The <code>_scrollController</code> is used to acquire the height and the current scroll position of the List View.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/685e0a815a07d1f3cf1f404de3f469f3.js"></script>
+
+<p>Next, we add an Event Listener that runs whenever a scroll event takes place. We get information about how much the user has already scrolled and how much can they scroll, vertically, until the last item is displayed. We store these under <code>currentPos</code> and <code>maxExtent</code> for readability&rsquo;s sake. The <strong>if</strong> clause is met once the user reaches the end of List View. New items are added to the list and the state is updated.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/952b826ad11b2e30ff605083d487a9d1.js"></script>
+
+<p>However, because the widget takes some time to rebuild (and consequently update the ListView <strong>max extent</strong> value) and the scroll controller is still receiving scroll events, the <strong>if</strong> clause runs multiple times, adding unwanted data the list.</p>
+<p>To fix it, we simply add a new widget variable (<code>_lastMaxExtent</code>) to store the previous max extent, and a second condition to the <strong>if</strong> clause to verify if the list max extent value was updated. When both conditions are <em>true</em>, they can only be <em>true</em> again once the List View finishes the rebuild process.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/cffa782c715f1383b5a100bfd67cb976.js"></script>
+
+<p>Also, we probably don&rsquo;t want to add new data only when the user reaches the end of the List View. An effortless way to achieve a fluid scroll experience is to multiply <code>maxExtent</code> by a value between 0 and 1. The closer the value is to 0, the sooner new data is added.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/8c995f0d72545683fdc4f87de18d34dc.js"></script>
+
+<p>Finally, before initializing the Scroll Controller we populate the list with some data.</p>
+<hr>
+<ul>
+<li><a href="https://github.com/PedroMGomes/infinite_scroll_tutorial">Github Repository</a></li>
+</ul>
+<hr>
+
+
         
-        <div class="posts-list">
+          <div class="blog-tags">
+            
+              <a href="https://pedromgomes.github.io//tags/flutter/">Flutter</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/tutorial/">Tutorial</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/listview/">ListView</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/infinite-scroll/">Infinite Scroll</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
           
-            <article class="post-preview">
-    <a href="https://pedromgomes.github.io/post/vulkan_opengl/">
-        <h2 class="post-title">Vulkan &amp; OpenGL Memory Benchmark</h2>
-        
-        
-        
-    </a>
 
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on January 17, 2021
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Pedro Gomes
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        Project aimed to learn both Vulkan, a fairly recent cross-platform 3D graphics and computing API, and OpenGL, another 3D graphics API that exists for much longer. It is about memory, an analysis on how both APIs abstract memory and memory usage with a simple performance test.
-Graphics APIs are often mentioned when discussing performance in video games. Vulkan, OpenGL, and DirectX are famous C/C++ APIs used to access GPU. While the CPU is a general-purpose powerhouse, GPUs are exceptionally good at parallel processing of repetitive tasks and fundamental to render graphics onto the screen.
-        <a href="https://pedromgomes.github.io/post/vulkan_opengl/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://pedromgomes.github.io//tags/c&#43;&#43;/">C&#43;&#43;</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/vulkan/">Vulkan</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/opengl/">OpenGL</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/glew/">GLEW</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/glsl/">GLSL</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/glfw/">GLFW</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/visual-studio/">Visual Studio</a>&nbsp;
-        
-    </div>
-    
-
-</article>
           
-        </div>
         
-      </div>
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+        </ul>
+      
+
+
+      
+
     </div>
   </div>
+</div>
 
       
 <footer>
