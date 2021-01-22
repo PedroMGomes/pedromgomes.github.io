@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Tutorial - Pedro Gomes</title>
+  <title>Adding a Search Bar - Pedro Gomes</title>
+  <meta name="description" content="Adding a Search Bar to the Infinite List from the previous tutorial.">
   <meta name="author" content="pedromgomes.github.com"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -28,14 +29,64 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/pedromgomes.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/pedromgomes.github.io\/flutter\/search_bar\/",
+          "name": "Adding a search bar"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Pedro Gomes"
+  },
+  "headline": "Adding a Search Bar",
+  "description" : "In this tutorial I\u0026rsquo;ll add a search bar on top of the List View widget from the previous tutorial to provide search functionality using the posts\u0027 color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.\n Final Result:    To better organize the code, I created the static class PostServer which has n amount of random posts and acts as a server for our app.",
+  "inLanguage" : "en",
+  "wordCount":  399 ,
+  "datePublished" : "2021-01-22T00:00:00",
+  "dateModified" : "2021-01-22T00:00:00",
+  "image" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
+  "keywords" : [ "Flutter, Tutorial, ListView" ],
+  "mainEntityOfPage" : "https:\/\/pedromgomes.github.io\/flutter\/search_bar\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/pedromgomes.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Tutorial" />
+<meta property="og:title" content="Adding a Search Bar" />
+<meta property="og:description" content="Adding a Search Bar to the Infinite List from the previous tutorial.">
 <meta property="og:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
-<meta property="og:url" content="https://pedromgomes.github.io/tags/tutorial/" />
+<meta property="og:url" content="https://pedromgomes.github.io/flutter/search_bar/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Pedro Gomes" />
 
-  <meta name="twitter:title" content="Tutorial" />
+  <meta name="twitter:title" content="Adding a Search Bar" />
+  <meta name="twitter:description" content="Adding a Search Bar to the Infinite List from the previous tutorial.">
   <meta name="twitter:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="generator" content="Hugo 0.80.0" />
@@ -183,13 +234,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
+            <div class="flutter-heading">
               
-                <h1>Tutorial</h1>
+                <h1>Adding a Search Bar</h1>
               
               
                 <hr class="small">
               
+              
+                
+                  <h2 class="flutter-subheading">Adding a Search Bar to the Infinite List from the previous tutorial.</h2>
+                
               
               
             </div>
@@ -201,120 +256,109 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>In this tutorial I&rsquo;ll add a search bar on top of the List View widget from the <a href="http://pedromgomes.github.io/flutter/flutter_infinite_scroll/">previous tutorial</a> to provide search functionality using the posts' color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.</p>
+<hr>
+<h3 id="final-result">Final Result:</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/KnTIx62FJn8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<hr>
+<p>To better organize the code, I created the static class <code>PostServer</code> which has <em>n</em> amount of random posts and acts as a server for our app. It has a single method: <code>get(offset, limit, keywordFilter)</code>.</p>
+<ul>
+<li><code>offset: int</code>: from which index the client requires the data.</li>
+<li><code>limit: int</code>: how many results the client expects.</li>
+<li><code>keywordFilter: String</code>: what results the client wants.</li>
+</ul>
+<p>Flutter <code>TextField</code> widget, with great customization support, was used to implement the search bar, and both the <code>ListView</code> and <code>TextField</code> are wrapped in a <code>Stack</code> widget to display one on top of the other.</p>
+<p>The <code>InfiniteList</code> widget (from the previous tutorial) was updated with new properties to accomodate this functionality:</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/abd3d91b7d6e111fcf59fc47cf8ad509.js"></script>
+
+<p>In a live scenario it&rsquo;s not recommended to have every single change fetching data from the server, especially since most are not intended to trigger a new request. If so, the app would make at least one request per letter for a single word.</p>
+<p>One way to avoid this is by adding a <code>Timer</code> with a fixed duration that executes the request function once it finishes. The timer resets every time the input changes.</p>
+<p>We&rsquo;re also adding a <code>TextEditingController</code> to access and clear the input field and a property <code>_lastSearchTerm</code> to store the input value used in the last request and avoid making a new one if it ends up being the same as the last.</p>
+<p>The <code>_search()</code> function:</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/3d29e9f5f6ee97cad67a370916531034.js"></script>
+
+<ul>
+<li>Resets the current timer, if active, and reassigns a new one to <code>_timer</code>.</li>
+<li>It validates if it should make a new request by comparing the value used in the last request, once the timer finishes.</li>
+<li>If so, it updates <code>_postList</code> with new data, passing the offset, the limit and the current input value.</li>
+</ul>
+<hr>
+<p>Next to the input we have a <em>clear</em> icon button that executes the following code.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/0f2fd23067146650c80d4df213185f5d.js"></script>
+
+<p>The <code>_cancelSearch()</code>:</p>
+<ul>
+<li>Cancels the current timer (active or not).</li>
+<li>Clears the search bar input.</li>
+<li>Removes focus from the <code>TextField</code>, dismissing the keyboard.</li>
+<li>Updates <code>_postList</code> with no-filtered data.</li>
+</ul>
+<hr>
+<p>Finally we assign <code>TextField</code> callbacks and the <code>_textController</code>.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/acc9a3ce02c3ba03162aaf875c4c93fe.js"></script>
+
+<hr>
+<p><a href="https://github.com/PedroMGomes/infinite_scroll_tutorial">Github Repository</a> with the complete source.</p>
+<hr>
+
+
         
-        <div class="posts-list">
+          <div class="blog-tags">
+            
+              <a href="https://pedromgomes.github.io//tags/flutter/">Flutter</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/tutorial/">Tutorial</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/listview/">ListView</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
           
-            <article class="post-preview">
-    <a href="https://pedromgomes.github.io/flutter/search_bar/">
-        <h2 class="post-title">Adding a Search Bar</h2>
-        
-        <h3 class="post-subtitle">
-            Adding a Search Bar to the Infinite List from the previous tutorial.
-        </h3>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on January 22, 2021
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Pedro Gomes
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        In this tutorial I&rsquo;ll add a search bar on top of the List View widget from the previous tutorial to provide search functionality using the posts' color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.
- Final Result:    To better organize the code, I created the static class PostServer which has n amount of random posts and acts as a server for our app.
-        <a href="https://pedromgomes.github.io/flutter/search_bar/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://pedromgomes.github.io//tags/flutter/">Flutter</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/tutorial/">Tutorial</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/listview/">ListView</a>&nbsp;
-        
-    </div>
-    
-
-</article>
+            
           
-            <article class="post-preview">
-    <a href="https://pedromgomes.github.io/flutter/flutter_infinite_scroll/">
-        <h2 class="post-title">Infinite Scroll with Flutter List View</h2>
-        
-        
-        
-    </a>
 
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on January 19, 2021
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Pedro Gomes
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users' experience. It avoids the download of excess data and the usage of excess memory.
-Final Result The sample application downloads random images from Unsplash.
-   Implement infinite scroll with ListView in Flutter.
-        <a href="https://pedromgomes.github.io/flutter/flutter_infinite_scroll/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://pedromgomes.github.io//tags/flutter/">Flutter</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/tutorial/">Tutorial</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/listview/">ListView</a>&nbsp;
-        
-        <a href="https://pedromgomes.github.io//tags/infinite-scroll/">Infinite Scroll</a>&nbsp;
-        
-    </div>
-    
-
-</article>
           
-        </div>
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/flutter/flutter_infinite_scroll/">Infinite Scroll with Flutter List View</a></li>
+                
+              </ul>
+
+          
         
-      </div>
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://pedromgomes.github.io/flutter/flutter_infinite_scroll/" data-toggle="tooltip" data-placement="top" title="Infinite Scroll with Flutter List View">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+
     </div>
   </div>
+</div>
 
       
 <footer>
