@@ -289,7 +289,7 @@ Graphics APIs are often mentioned when discussing performance in video games. Vu
 </ul>
 <p>Personally, I found OpenGL to be a lot more straightforward than Vulkan, far less verbose and easy to get things going, such as initializing a window and render elementary shapes. A key difference between the two is how they handle state. The OpenGL context keeps a global state that defines the render pipeline and developers change state properties through GL commands. On the other hand, Vulkan is stateless, extremely verbose and provides more explicit control over the hardware, one being extensive memory management capabilities. Vulkan provides <a href="https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VkMemoryPropertyFlagBits.html">memory properties</a> allowing developers to queue for suitable dynamic memory locations. Developers use multiple combinations of those attributes to optimize their application.
 OpenGL didn&rsquo;t have, at the time, similar memory specification capabilities.</p>
-<p>The goal was to implement the various methods to transfer memory between CPU-GPU and benchmark the program.</p>
+<p>The goal was to implement various methods to transfer memory between CPU-GPU and benchmark the program.</p>
 <p>With Vulkan the following methods were tested:</p>
 <ul>
 <li>
@@ -299,10 +299,10 @@ OpenGL didn&rsquo;t have, at the time, similar memory specification capabilities
 <p>Second approach uses <code>vkCmdUpdateBuffer</code> which allows direct writes to the destination buffer. The buffer is updated between consecutive frames.</p>
 </li>
 <li>
-<p>The third copies data with <code>vkCmdCopyBuffer</code> from a staging to the destination buffer, but it recreates the latter on every frame. The goal was to determine if, for often-changing data, allocating a new buffer would be more performant than reusing the same.</p>
+<p>The third copies data with <code>vkCmdCopyBuffer</code> from a staging to the destination buffer, but it recreates the latter on every frame. The goal was to determine if, for often-changing data, allocating a new buffer would outperform reusing the same.</p>
 </li>
 <li>
-<p>Lastly, the fourth method uses <code>vkMapMemory</code> to map data immediately. This method does not require a Command Buffer and is not submitted to a Vulkan processing queue. Memory requires the <code>VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT</code> bit.</p>
+<p>Lastly, the fourth method uses <code>vkMapMemory</code> to map data immediately. This method does not require a Command Buffer and is not submitted to a Vulkan processing queue and memory requires the <code>VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT</code> bit.</p>
 </li>
 </ul>
 <p>With OpenGL the only considered approach was:</p>
@@ -311,10 +311,10 @@ OpenGL didn&rsquo;t have, at the time, similar memory specification capabilities
 </ul>
 <p><strong>Instanced Rendering</strong> was also tested with both APIs. This technique is optimal to render the same data <em>n</em> ammount of times (not every 3D model you see in your game is different, eg: trees).</p>
 <ul>
-<li>Vulkan with <code>vkCmdDraw</code>.</li>
+<li>Instanced Rendering on Vulkan with <code>vkCmdDraw</code>.</li>
 <li><code>glDrawArraysInstanced</code> on OpenGL.</li>
 </ul>
-<p>The program uses multiple instances of the same model each one with its own model matrix defining their position and orientation relative to (0, 0, 0). Each matrix is updated with different values and used by the GPU to render the next frame. What is transferred to device accessible memory is exactly the matrix data of the objects being displayed. Workload increases relative to the amount of models present in the scene.</p>
+<p>The program uses multiple instances of the same model, each one with its own model matrix defining their position and orientation relative to (0, 0, 0). Each matrix is updated with different values and used by the GPU to render the next frame. What is transferred to device accessible memory is exactly the matrix data of the objects being displayed. Workload increases relative to the amount of models present in the scene.</p>
 <hr>
 <p>The results are irrelevant as they only reflect data gathered from two machines and there might be other aspects, such as code quality or design decisions, that were overlooked. However, it shows that OpenGL reaches a higher framerate than Vulkan for this application specifically.</p>
 

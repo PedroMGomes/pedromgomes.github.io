@@ -15,8 +15,8 @@
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
       <guid>https://pedromgomes.github.io/post/solar_system/</guid>
-      <description>My first project made with OpenGL was to develop an inaccurate simulation of our solar system. I used the GLEW extension loading library to access OpenGL and FreeGLUT to get a system window and handle user inputs.
-Planet sizes are proportional between one another, as well as the distance. But the distance and size are not on the same scale. The sun is also smaller as its massive size would occupy the entire view.</description>
+      <description>My first project made with OpenGL was an inaccurate simulation of our solar system. I used the GLEW extension loading library to access OpenGL and FreeGLUT to get a system window and handle user inputs.
+Planet sizes are proportional between one another, as well as the distance. But the distance and size are not on the same scale relative to each other. The sun is also smaller as its massive size would occupy the entire view.</description>
     </item>
     
   </channel>
