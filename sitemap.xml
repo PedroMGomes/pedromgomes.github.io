@@ -4,8 +4,43 @@
   
   <url>
     <loc>https://pedromgomes.github.io/flutter/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/flutter/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/provider/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/flutter/provider/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/state-management/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/tutorial/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,27 +49,7 @@
   </url>
   
   <url>
-    <loc>https://pedromgomes.github.io/tags/flutter/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pedromgomes.github.io/tags/listview/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedromgomes.github.io/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedromgomes.github.io/tags/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedromgomes.github.io/tags/tutorial/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
   </url>
   
