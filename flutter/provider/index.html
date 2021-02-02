@@ -61,7 +61,7 @@ The goal for this tutorial is to cover the package basic usage by implementing a
   "headline": "Provider - A State Management Solution",
   "description" : "In this tutorial I\u0026rsquo;ll use one of the most popular state management solutions in Flutter, the Provider package. It\u0026rsquo;s a wrapper around InheritedWidget and provides a straightforward approach on handling state, capable of simplifying and speeding up development.\nThere are other extremely useful state management packages, such as Flutter Bloc and Mobx that use Provider.\nThe goal for this tutorial is to cover the package basic usage by implementing a simple use case.",
   "inLanguage" : "en",
-  "wordCount":  501 ,
+  "wordCount":  489 ,
   "datePublished" : "2021-02-01T00:00:00",
   "dateModified" : "2021-02-01T00:00:00",
   "image" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
@@ -282,10 +282,10 @@ The goal for this tutorial is to cover the package basic usage by implementing a
 
 <hr>
 <h3 id="inject-the-provider">Inject the Provider</h3>
-<p>The Provider is injected on top of the <code>MaterialApp</code> widget making it accessible across all branches of the app. Ideally, providers are injected on widgets branches that use it. Since this is a fairly small application that has only two pages and both require access to the provided data, it’s easier to inject the <code>PostsProvider</code> on top of the Navigator, instead of passing it around between branches every time the <code>SavedPostsPage</code> route is pushed.</p>
+<p>The Provider is injected on top of the <code>MaterialApp</code> widget making it accessible across all branches of the app. Since this is a fairly small application that has only two pages and both require access to the provided data, it’s easier to inject the <code>PostsProvider</code> on top of the Navigator, instead of passing it around between branches every time the <code>SavedPostsPage</code> route is pushed.</p>
 <script type="application/javascript" src="https://gist.github.com/PedroMGomes/a9eb8950f039cbf3b45fa2f0a261a676.js"></script>
 
-<p>It’s essential to be aware that when pushing a new route with <code>Navigator.of(context).push(...)</code> a new branch is created, from the Navigator, that can not access widgets that belong to other branches. The Navigator itself is a widget created by the MaterialApp and lies above the <code>home</code> widget property.</p>
+<p>It’s essential to be aware that when pushing a new route with <code>Navigator.of(context).push(...)</code> a new branch is created, from the Navigator, that can not access widgets that belong to other branches. The Navigator itself is a widget created by the MaterialApp and lies above the <code>home</code> widget.</p>
 <hr>
 <h3 id="accessing-the-provider-to-save-a-post">Accessing the Provider to save a Post</h3>
 <p>By tapping on the bookmark icon, through <code>PostWidget</code>, the post is saved on the Posts Provider class. It gets the provider using <code>context.read&lt;PostsProvider&gt;()</code> method with a specific template parameter. The template param tells the framework to search for a provider with that same exact type. If there&rsquo;s more than one provider with the same type, the nearest one is returned.</p>
@@ -293,7 +293,7 @@ The goal for this tutorial is to cover the package basic usage by implementing a
 
 <hr>
 <h3 id="using-consumer">Using Consumer</h3>
-<p>The <code>Consumer</code> widget from the Provider Package and is used to subscribe to changes or acquire data from a Provider. It also requires a template parameter to be aware of the Provider it should return. Every time the widget is built, it displays the most updated version of the post saved list.</p>
+<p>The <code>Consumer</code> widget from the Provider Package is used to subscribe to changes and acquire data from a Provider. It also requires a template parameter to be aware of the Provider it should return. Every time the widget is built, it displays the most updated version of the post saved list.</p>
 <script type="application/javascript" src="https://gist.github.com/PedroMGomes/875623279605b1919f4f4f94f3689810.js"></script>
 
 <hr>
