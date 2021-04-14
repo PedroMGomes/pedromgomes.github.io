@@ -8,7 +8,16 @@
     <language>en-us</language>
     <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
     <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shopping/Groceries List for Android</title>
+      <link>https://pedromgomes.github.io/flutter/shopping_list/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <guid>https://pedromgomes.github.io/flutter/shopping_list/</guid>
+      <description>You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your phone, or pen and paper, and start writing things down, or ask them to message you with what they want. I’ve quickly developed a mobile application using Flutter to help synchronize a list of wanted groceries where anyone can log what they want whenever they feel like to.</description>
+    </item>
+    
     <item>
       <title>Provider - A State Management Solution</title>
       <link>https://pedromgomes.github.io/flutter/provider/</link>

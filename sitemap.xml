@@ -4,18 +4,53 @@
   
   <url>
     <loc>https://pedromgomes.github.io/flutter/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://pedromgomes.github.io/tags/firebase/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/firebase-animated-list/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/firebase-database/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pedromgomes.github.io/tags/flutter/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/mobile/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://pedromgomes.github.io/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/flutter/shopping_list/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pedromgomes.github.io/tags/tutorial/</loc>
+    <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -30,16 +65,6 @@
   
   <url>
     <loc>https://pedromgomes.github.io/tags/state-management/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedromgomes.github.io/tags/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pedromgomes.github.io/tags/tutorial/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   

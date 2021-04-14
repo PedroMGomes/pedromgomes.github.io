@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Adding a Search Bar - Pedro Gomes</title>
-  <meta name="description" content="Adding a Search Bar to the Infinite List from the previous tutorial.">
+  <title>Shopping/Groceries List for Android - Pedro Gomes</title>
+  <meta name="description" content="You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your phone, or pen and paper, and start writing things down, or ask them to message you with what they want. I’ve quickly developed a mobile application using Flutter to help synchronize a list of wanted groceries where anyone can log what they want whenever they feel like to.">
   <meta name="author" content="pedromgomes.github.com"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -44,8 +44,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/pedromgomes.github.io\/flutter\/search_bar\/",
-          "name": "Adding a search bar"
+          "@id": "https:\/\/pedromgomes.github.io\/flutter\/shopping_list\/",
+          "name": "Shopping\/ groceries list for android"
         }
     }]
 }
@@ -56,15 +56,15 @@
   "author": {
     "name" : "Pedro Gomes"
   },
-  "headline": "Adding a Search Bar",
-  "description" : "In this tutorial I\u0026rsquo;ll add a search bar on top of the List View widget from the previous tutorial to provide search functionality using the posts\u0027 color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.\n Final Result:    To better organize the code, I created the static class PostServer which has n amount of random posts and acts as a server for our app.",
+  "headline": "Shopping\/Groceries List for Android",
+  "description" : "You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your phone, or pen and paper, and start writing things down, or ask them to message you with what they want. I’ve quickly developed a mobile application using Flutter to help synchronize a list of wanted groceries where anyone can log what they want whenever they feel like to.",
   "inLanguage" : "en",
-  "wordCount":  399 ,
-  "datePublished" : "2021-01-22T00:00:00",
-  "dateModified" : "2021-01-22T00:00:00",
+  "wordCount":  588 ,
+  "datePublished" : "2021-04-14T00:00:00",
+  "dateModified" : "2021-04-14T00:00:00",
   "image" : "https:\/\/pedromgomes.github.io\/img\/avatar_sm.png",
-  "keywords" : [ "Flutter, Tutorial, ListView" ],
-  "mainEntityOfPage" : "https:\/\/pedromgomes.github.io\/flutter\/search_bar\/",
+  "keywords" : [ "Flutter, Tutorial, Firebase, Firebase Database, Firebase Animated List, Mobile" ],
+  "mainEntityOfPage" : "https:\/\/pedromgomes.github.io\/flutter\/shopping_list\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/pedromgomes.github.io\/",
@@ -78,15 +78,15 @@
 }
 </script>
 
-<meta property="og:title" content="Adding a Search Bar" />
-<meta property="og:description" content="Adding a Search Bar to the Infinite List from the previous tutorial.">
+<meta property="og:title" content="Shopping/Groceries List for Android" />
+<meta property="og:description" content="You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your phone, or pen and paper, and start writing things down, or ask them to message you with what they want. I’ve quickly developed a mobile application using Flutter to help synchronize a list of wanted groceries where anyone can log what they want whenever they feel like to.">
 <meta property="og:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
-<meta property="og:url" content="https://pedromgomes.github.io/flutter/search_bar/" />
+<meta property="og:url" content="https://pedromgomes.github.io/flutter/shopping_list/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Pedro Gomes" />
 
-  <meta name="twitter:title" content="Adding a Search Bar" />
-  <meta name="twitter:description" content="Adding a Search Bar to the Infinite List from the previous tutorial.">
+  <meta name="twitter:title" content="Shopping/Groceries List for Android" />
+  <meta name="twitter:description" content="You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your …">
   <meta name="twitter:image" content="https://pedromgomes.github.io/img/avatar_sm.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="generator" content="Hugo 0.80.0" />
@@ -236,15 +236,11 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="flutter-heading">
               
-                <h1>Adding a Search Bar</h1>
+                <h1>Shopping/Groceries List for Android</h1>
               
               
                 <hr class="small">
               
-              
-                
-                  <h2 class="flutter-subheading">Adding a Search Bar to the Infinite List from the previous tutorial.</h2>
-                
               
               
             </div>
@@ -260,53 +256,85 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>In this tutorial I&rsquo;ll add a search bar on top of the List View widget from the <a href="http://pedromgomes.github.io/flutter/flutter_infinite_scroll/">previous tutorial</a> to provide search functionality using the posts' color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.</p>
+        <p>You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your phone, or pen and paper, and start writing things down, or ask them to message you with what they want. I’ve quickly developed a mobile application using Flutter to help synchronize a list of wanted groceries where anyone can log what they want whenever they feel like to.</p>
+<p>The app uses a Firebase Realtime Database to store products and synchronize data between devices. It also uses the <code>FirebaseAnimatedList</code> widget, provided by the same SDK, binding a Firebase <em>query</em> that concerns a specific location on the remote document database. It&rsquo;s a convenient widget that makes it simpler to display and operate on data stored remotely when arranged in a list format.</p>
 <hr>
-<h3 id="final-result">Final Result:</h3>
+<h3 id="final-result">Final result:</h3>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/KnTIx62FJn8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/ynTy_kkGoyE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+<p>Users are able to individually add new products, set the desired quantity or remove them. You might flag it instead by tapping the quantity number for situations when where you want to signal the product was added to the cart, but don’t want to remove it from the list. Each item has a reference field to help with specific products.</p>
 <hr>
-<p>To better organize the code, I created the static class <code>PostServer</code> which has <em>n</em> amount of random posts and acts as a server for our app. It has a single method: <code>get(offset, limit, keywordFilter)</code>.</p>
+<h3 id="external-packages">External packages</h3>
 <ul>
-<li><code>offset: int</code>: from which index the client requires the data.</li>
-<li><code>limit: int</code>: how many results the client expects.</li>
-<li><code>keywordFilter: String</code>: what results the client wants.</li>
-</ul>
-<p>Flutter <code>TextField</code> widget, with great customization support, was used to implement the search bar, and both the <code>ListView</code> and <code>TextField</code> are wrapped in a <code>Stack</code> widget to display one on top of the other.</p>
-<p>The <code>InfiniteList</code> widget (from the previous tutorial) was updated with new properties to accomodate this functionality:</p>
-<script type="application/javascript" src="https://gist.github.com/PedroMGomes/abd3d91b7d6e111fcf59fc47cf8ad509.js"></script>
-
-<p>In a live scenario it&rsquo;s not recommended to have every single change fetching data from the server, especially since most are not intended to trigger a new request. If so, the app would make at least one request per letter for a single word.</p>
-<p>One way to avoid this is by adding a <code>Timer</code> with a fixed duration that executes the request function once it finishes. The timer resets every time the input changes.</p>
-<p>We&rsquo;re also adding a <code>TextEditingController</code> to access and clear the input field and a property <code>_lastSearchTerm</code> to store the input value used in the last request and avoid making a new one if it ends up being the same as the last.</p>
-<p>The <code>_search()</code> function:</p>
-<script type="application/javascript" src="https://gist.github.com/PedroMGomes/3d29e9f5f6ee97cad67a370916531034.js"></script>
-
-<ul>
-<li>Resets the current timer, if active, and reassigns a new one to <code>_timer</code>.</li>
-<li>It validates if it should make a new request by comparing the value used in the last request, once the timer finishes.</li>
-<li>If so, it updates <code>_postList</code> with new data, passing the offset, the limit and the current input value.</li>
-</ul>
-<hr>
-<p>Next to the input we have a <em>clear</em> icon button that executes the following code.</p>
-<script type="application/javascript" src="https://gist.github.com/PedroMGomes/0f2fd23067146650c80d4df213185f5d.js"></script>
-
-<p>The <code>_cancelSearch()</code>:</p>
-<ul>
-<li>Cancels the current timer (active or not).</li>
-<li>Clears the search bar input.</li>
-<li>Removes focus from the <code>TextField</code>, dismissing the keyboard.</li>
-<li>Updates <code>_postList</code> with no-filtered data.</li>
+<li>
+<p><a href="https://pub.dev/packages/envify">Envify</a> → Generate configs from an <code>.env</code> file.</p>
+</li>
+<li>
+<p><a href="https://pub.dev/packages/provider">Provider</a> → State Management.</p>
+</li>
+<li>
+<p><a href="https://pub.dev/packages/firebase_database">Firebase Database</a> → SDK to operate the remote Firebase database.</p>
+</li>
+<li>
+<p><a href="https://pub.dev/packages/firebase_core">Firebase Core</a> → Initialize Firebase APIs and connect Firebase Application.</p>
+</li>
+<li>
+<p><a href="https://pub.dev/packages/build_runner">Build Runner</a> → Dev dependency.</p>
+</li>
+<li>
+<p><a href="https://pub.dev/packages/envify_generator">Envify Generator</a> → Dev dependency to generate environment data.</p>
+</li>
+<li>
+<p><a href="https://pub.dev/packages/flutter_launcher_icons">Flutter Launcher Icons</a> → Dev dependency to generate the application icon for Android.</p>
+</li>
 </ul>
 <hr>
-<p>Finally we assign <code>TextField</code> callbacks and the <code>_textController</code>.</p>
-<script type="application/javascript" src="https://gist.github.com/PedroMGomes/acc9a3ce02c3ba03162aaf875c4c93fe.js"></script>
+<h3 id="setting-up-firebase">Setting up Firebase</h3>
+<p>To set up your own database you’ll have to create a Firebase Project and enable the Realtime database product through <a href="https://console.firebase.google.com">Firebase Console</a>.</p>
+<p>The properties required are:</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/d3507cf56d4df31a0166c7fca316211e.js?file=.env"></script>
+
+<p>Add the data provided by Firebase to the <code>.env</code> file in the project root folder except for the <code>DATABASE_NAME</code>, you can name the database whatever you’d like. 
+Firebase also generates a <code>google-services.json</code> file that you can download when creating a project. You must place it inside the <code>&lt;project_root&gt;/android/app</code> folder.</p>
+<p>After setting up <code>.env</code> and <code>google-services.json</code> run the following list of commands:</p>
+<p>Download packages:</p>
+<ul>
+<li><code>flutter pub get</code></li>
+</ul>
+<p>Generate the <code>env.g.dart</code> file with configuration data:</p>
+<ul>
+<li><code>flutter pub run build_runner run</code></li>
+</ul>
+<p>Build the APK for Android:</p>
+<ul>
+<li><code>flutter build apk --split-per-abi --no-sound-null-safety --release</code></li>
+</ul>
+<p>Install on connected USB device:</p>
+<ul>
+<li><code>flutter install</code></li>
+</ul>
+<p><a href="https://pub.dev/packages/firebase_database">Firebase Database</a> does not have a <strong>null safety</strong> compliant version yet, hence the <code>--no-sound-null-safety</code> parameter.</p>
+<hr>
+<h3 id="going-through-the-code">Going through the code.</h3>
+<p>Initializing the Firebase Application.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/d3507cf56d4df31a0166c7fca316211e.js?file=main.dart"></script>
+
+<p>For a clear explanation of <code>WidgetsFlutterBinding.ensureInitialized</code> check the following <a href="https://stackoverflow.com/questions/63873338/what-does-widgetsflutterbinding-ensureinitialized-do">Stack Overflow answer</a>.</p>
+<p>The root widget <code>MyApp</code> has a <code>FutureBuilder</code> that completes once the database is initialized. <code>LvFirebaseProvider</code> asynchronously initializes the Firebase database with the <code>FirebaseApp</code> object. Its <code>initialize()</code> API enables persistence mode which allows data to be stored on disk. Normal behaviour maintains changes in-memory and automatically in sync with the remote database and if there’s no connection, those changes are lost once the app closes/restarts. With Persistence Mode enabled, data is stored on disk and synchronized as soon as possible.</p>
+<p>By default the Firebase Database client uses 10MB of disk space to cache data.</p>
+<p>The <strong>root</strong> location on the database has a list of objects (products/items) each with a firebase ID (automatically generated using a timestamp) and a set of properties (name, reference and quantity). Products are listed chronologically by the order they were created.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/d3507cf56d4df31a0166c7fca316211e.js?file=lv_product.dart"></script>
+
+<p>The following code is used to manage data according to the requirements through <code>LvFirebaseProvider</code>.</p>
+<script type="application/javascript" src="https://gist.github.com/PedroMGomes/d3507cf56d4df31a0166c7fca316211e.js?file=lv_firebase_provider.dart"></script>
 
 <hr>
-<p><a href="https://github.com/PedroMGomes/flutter_tutorial">Github Repository</a> with the complete source.</p>
+<p>Hope you’ve enjoyed this little project and can replicate it yourself.</p>
+<p>Best regards,</p>
+<p><a href="https://github.com/PedroMGomes/LvShoppingList">Github Repository</a></p>
 <hr>
 
 
@@ -317,7 +345,13 @@
             
               <a href="https://pedromgomes.github.io//tags/tutorial/">Tutorial</a>&nbsp;
             
-              <a href="https://pedromgomes.github.io//tags/listview/">ListView</a>&nbsp;
+              <a href="https://pedromgomes.github.io//tags/firebase/">Firebase</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/firebase-database/">Firebase Database</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/firebase-animated-list/">Firebase Animated List</a>&nbsp;
+            
+              <a href="https://pedromgomes.github.io//tags/mobile/">Mobile</a>&nbsp;
             
           </div>
         
@@ -334,9 +368,9 @@
                   <ul>
                 
                 
-                    <li><a href="/flutter/shopping_list/">Shopping/Groceries List for Android</a></li>
-                
                     <li><a href="/flutter/provider/">Provider - A State Management Solution</a></li>
+                
+                    <li><a href="/flutter/search_bar/">Adding a Search Bar</a></li>
                 
                     <li><a href="/flutter/flutter_infinite_scroll/">Infinite Scroll with Flutter List View</a></li>
                 
@@ -350,13 +384,9 @@
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://pedromgomes.github.io/flutter/flutter_infinite_scroll/" data-toggle="tooltip" data-placement="top" title="Infinite Scroll with Flutter List View">&larr; Previous Post</a>
+              <a href="https://pedromgomes.github.io/flutter/provider/" data-toggle="tooltip" data-placement="top" title="Provider - A State Management Solution">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://pedromgomes.github.io/flutter/provider/" data-toggle="tooltip" data-placement="top" title="Provider - A State Management Solution">Next Post &rarr;</a>
-            </li>
           
         </ul>
       
