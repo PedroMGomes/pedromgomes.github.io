@@ -6,14 +6,14 @@
     <description>Recent content on Pedro Gomes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
-    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
+    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</managingEditor>
+    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</webMaster>
     <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shopping/Groceries List for Android</title>
       <link>https://pedromgomes.github.io/flutter/shopping_list/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/shopping_list/</guid>
       <description>You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your phone, or pen and paper, and start writing things down, or ask them to message you with what they want. I’ve quickly developed a mobile application using Flutter to help synchronize a list of wanted groceries where anyone can log what they want whenever they feel like to.</description>
     </item>
@@ -22,7 +22,7 @@
       <title>Provider - A State Management Solution</title>
       <link>https://pedromgomes.github.io/flutter/provider/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/provider/</guid>
       <description>In this tutorial I&amp;rsquo;ll use one of the most popular state management solutions in Flutter, the Provider package. It&amp;rsquo;s a wrapper around InheritedWidget and provides a straightforward approach on handling state, capable of simplifying and speeding up development.
 There are other extremely useful state management packages, such as Flutter Bloc and Mobx that use Provider.
@@ -33,9 +33,9 @@ The goal for this tutorial is to cover the package basic usage by implementing a
       <title>Adding a Search Bar</title>
       <link>https://pedromgomes.github.io/flutter/search_bar/</link>
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/search_bar/</guid>
-      <description>In this tutorial I&amp;rsquo;ll add a search bar on top of the List View widget from the previous tutorial to provide search functionality using the posts&#39; color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.
+      <description>In this tutorial I&amp;rsquo;ll add a search bar on top of the List View widget from the previous tutorial to provide search functionality using the posts&amp;rsquo; color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.
  Final Result:    To better organize the code, I created the static class PostServer which has n amount of random posts and acts as a server for our app.</description>
     </item>
     
@@ -43,9 +43,9 @@ The goal for this tutorial is to cover the package basic usage by implementing a
       <title>Infinite Scroll with Flutter List View</title>
       <link>https://pedromgomes.github.io/flutter/flutter_infinite_scroll/</link>
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/flutter_infinite_scroll/</guid>
-      <description>Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users&#39; experience. It avoids the download of excess data and the usage of excess memory.
+      <description>Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users&amp;rsquo; experience. It avoids the download of excess data and the usage of excess memory.
 Final Result The sample application downloads random images from Unsplash.
    Implement infinite scroll with ListView in Flutter.</description>
     </item>
@@ -54,7 +54,7 @@ Final Result The sample application downloads random images from Unsplash.
       <title>Unrealistic Solar System</title>
       <link>https://pedromgomes.github.io/post/solar_system/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/solar_system/</guid>
       <description>My first project made with OpenGL was an inaccurate simulation of our solar system. I used the GLEW extension loading library to access OpenGL and FreeGLUT to get a system window and handle user inputs.
 Planet sizes are proportional between one another, as well as the distance. But the distance and size are not on the same scale relative to each other. The sun is also smaller as its massive size would occupy the entire view.</description>
@@ -64,7 +64,7 @@ Planet sizes are proportional between one another, as well as the distance. But 
       <title>Vulkan &amp; OpenGL Memory Benchmark</title>
       <link>https://pedromgomes.github.io/post/vulkan_opengl/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/vulkan_opengl/</guid>
       <description>Project aimed to learn both Vulkan, a fairly recent cross-platform 3D graphics and computing API, and OpenGL, another 3D graphics API that exists for much longer. It is about memory, an analysis on how both APIs abstract memory and memory usage with a simple performance test.
 Graphics APIs are often mentioned when discussing performance in video games. Vulkan, OpenGL, and DirectX are famous C/C++ APIs used to access GPU. While the CPU is a general-purpose powerhouse, GPUs are exceptionally good at parallel processing of repetitive tasks and fundamental to render graphics onto the screen.</description>
@@ -74,7 +74,7 @@ Graphics APIs are often mentioned when discussing performance in video games. Vu
       <title>Gamejam &amp; Regatearte</title>
       <link>https://pedromgomes.github.io/post/gamejam/</link>
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/gamejam/</guid>
       <description>I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics, and GLSL (OpenGL shading language). The engine was developed for a single purpose: to allow me and my team (PIP) to develop a video game for a Gamejam in Museu Soares dos Reis - Porto, under 48 hours.
 Engine characteristics  Define Game objects as rects. Create actions for a game object.</description>
@@ -84,21 +84,23 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
       <title>Genos</title>
       <link>https://pedromgomes.github.io/post/genos/</link>
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/genos/</guid>
       <description>Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&amp;rsquo;ve used OpenCV that has the required image processing techniques.
-Background Subtraction Figure 1: Background Subtraction with random noiseThis technique was used to extract the background.</description>
+Background Subtraction   Figure 1: Background Subtraction with random noise    This technique was used to extract the background.</description>
     </item>
     
     <item>
       <title>About Me</title>
       <link>https://pedromgomes.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/page/about/</guid>
-      <description>I&amp;rsquo;m Pedro Gomes, a 26 year old Software Engineer with a Master&amp;rsquo;s degree (in Software Engineering) who enjoys programming and technology. This is my webspace with information about me and a few projects I&amp;rsquo;ve worked on.
-I have completed my studies at ISEP (Instituto Superior de Engenharia do Porto) in Porto - Portugal, where I also currently live.
-During my college education I worked professionally for approximately two years with a development stack consisting of Angular, .</description>
+      <description>Hi,
+I&amp;rsquo;m Pedro Gomes, a 27 year old Software Engineer with a Master&amp;rsquo;s degree (in Software Engineering) who enjoys programming and technology.
+I&amp;rsquo;ve completed my studies at ISEP (Instituto Superior de Engenharia do Porto) in Porto - Portugal, where I currently live.
+During my college education I worked professionally for approximately two years using mainly .NET Core, SQL Server, Azure DevOps, Angular &amp;amp; Ionic.
+Computer Graphics is a field of great interest to me.</description>
     </item>
     
   </channel>

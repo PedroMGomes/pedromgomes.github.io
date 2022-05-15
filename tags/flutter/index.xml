@@ -6,14 +6,14 @@
     <description>Recent content in Flutter on Pedro Gomes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
-    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
+    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</managingEditor>
+    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</webMaster>
     <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shopping/Groceries List for Android</title>
       <link>https://pedromgomes.github.io/flutter/shopping_list/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/shopping_list/</guid>
       <description>You probably have lived though the situation where either you or anyone you live with shares their intent to get groceries just to be immediately bombarded with requests. Inconveniently, you grab your phone, or pen and paper, and start writing things down, or ask them to message you with what they want. I’ve quickly developed a mobile application using Flutter to help synchronize a list of wanted groceries where anyone can log what they want whenever they feel like to.</description>
     </item>
@@ -22,7 +22,7 @@
       <title>Provider - A State Management Solution</title>
       <link>https://pedromgomes.github.io/flutter/provider/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/provider/</guid>
       <description>In this tutorial I&amp;rsquo;ll use one of the most popular state management solutions in Flutter, the Provider package. It&amp;rsquo;s a wrapper around InheritedWidget and provides a straightforward approach on handling state, capable of simplifying and speeding up development.
 There are other extremely useful state management packages, such as Flutter Bloc and Mobx that use Provider.
@@ -33,9 +33,9 @@ The goal for this tutorial is to cover the package basic usage by implementing a
       <title>Adding a Search Bar</title>
       <link>https://pedromgomes.github.io/flutter/search_bar/</link>
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/search_bar/</guid>
-      <description>In this tutorial I&amp;rsquo;ll add a search bar on top of the List View widget from the previous tutorial to provide search functionality using the posts&#39; color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.
+      <description>In this tutorial I&amp;rsquo;ll add a search bar on top of the List View widget from the previous tutorial to provide search functionality using the posts&amp;rsquo; color keyword. Each Post has a color keyword that is used to request its random image. The user is able to search for posts through their color, as they type in the search bar.
  Final Result:    To better organize the code, I created the static class PostServer which has n amount of random posts and acts as a server for our app.</description>
     </item>
     
@@ -43,9 +43,9 @@ The goal for this tutorial is to cover the package basic usage by implementing a
       <title>Infinite Scroll with Flutter List View</title>
       <link>https://pedromgomes.github.io/flutter/flutter_infinite_scroll/</link>
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/flutter/flutter_infinite_scroll/</guid>
-      <description>Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users&#39; experience. It avoids the download of excess data and the usage of excess memory.
+      <description>Infinite scroll is a design technique to keep users engaged and improves network bandwidth usage by fetching a subset of items from a server instead of the entire set, all while having minimal to no impact on the users&amp;rsquo; experience. It avoids the download of excess data and the usage of excess memory.
 Final Result The sample application downloads random images from Unsplash.
    Implement infinite scroll with ListView in Flutter.</description>
     </item>

@@ -6,14 +6,14 @@
     <description>Recent content in C&#43;&#43; on Pedro Gomes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
-    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
+    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</managingEditor>
+    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</webMaster>
     <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unrealistic Solar System</title>
       <link>https://pedromgomes.github.io/post/solar_system/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/solar_system/</guid>
       <description>My first project made with OpenGL was an inaccurate simulation of our solar system. I used the GLEW extension loading library to access OpenGL and FreeGLUT to get a system window and handle user inputs.
 Planet sizes are proportional between one another, as well as the distance. But the distance and size are not on the same scale relative to each other. The sun is also smaller as its massive size would occupy the entire view.</description>
@@ -23,7 +23,7 @@ Planet sizes are proportional between one another, as well as the distance. But 
       <title>Vulkan &amp; OpenGL Memory Benchmark</title>
       <link>https://pedromgomes.github.io/post/vulkan_opengl/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/vulkan_opengl/</guid>
       <description>Project aimed to learn both Vulkan, a fairly recent cross-platform 3D graphics and computing API, and OpenGL, another 3D graphics API that exists for much longer. It is about memory, an analysis on how both APIs abstract memory and memory usage with a simple performance test.
 Graphics APIs are often mentioned when discussing performance in video games. Vulkan, OpenGL, and DirectX are famous C/C++ APIs used to access GPU. While the CPU is a general-purpose powerhouse, GPUs are exceptionally good at parallel processing of repetitive tasks and fundamental to render graphics onto the screen.</description>
@@ -33,7 +33,7 @@ Graphics APIs are often mentioned when discussing performance in video games. Vu
       <title>Gamejam &amp; Regatearte</title>
       <link>https://pedromgomes.github.io/post/gamejam/</link>
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/gamejam/</guid>
       <description>I developed a small 2D Engine with OpenGL and relevant libraries such as FreeGLUT for window and context management, GLM for mathematics, and GLSL (OpenGL shading language). The engine was developed for a single purpose: to allow me and my team (PIP) to develop a video game for a Gamejam in Museu Soares dos Reis - Porto, under 48 hours.
 Engine characteristics  Define Game objects as rects. Create actions for a game object.</description>
@@ -43,10 +43,10 @@ Engine characteristics  Define Game objects as rects. Create actions for a game 
       <title>Genos</title>
       <link>https://pedromgomes.github.io/post/genos/</link>
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/genos/</guid>
       <description>Genos was an academic project developed using C++ and OpenCV to detect gestures and hand movement through the webcam and perform accessibility related operations. The program included mute, increase/decrease volume, scroll through a document or close the current application. To achieve the intended solution I&amp;rsquo;ve used OpenCV that has the required image processing techniques.
-Background Subtraction Figure 1: Background Subtraction with random noiseThis technique was used to extract the background.</description>
+Background Subtraction   Figure 1: Background Subtraction with random noise    This technique was used to extract the background.</description>
     </item>
     
   </channel>

@@ -6,17 +6,19 @@
     <description>Recent content in Pages on Pedro Gomes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
-    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster><atom:link href="https://pedromgomes.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</managingEditor>
+    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</webMaster><atom:link href="https://pedromgomes.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://pedromgomes.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/page/about/</guid>
-      <description>I&amp;rsquo;m Pedro Gomes, a 26 year old Software Engineer with a Master&amp;rsquo;s degree (in Software Engineering) who enjoys programming and technology. This is my webspace with information about me and a few projects I&amp;rsquo;ve worked on.
-I have completed my studies at ISEP (Instituto Superior de Engenharia do Porto) in Porto - Portugal, where I also currently live.
-During my college education I worked professionally for approximately two years with a development stack consisting of Angular, .</description>
+      <description>Hi,
+I&amp;rsquo;m Pedro Gomes, a 27 year old Software Engineer with a Master&amp;rsquo;s degree (in Software Engineering) who enjoys programming and technology.
+I&amp;rsquo;ve completed my studies at ISEP (Instituto Superior de Engenharia do Porto) in Porto - Portugal, where I currently live.
+During my college education I worked professionally for approximately two years using mainly .NET Core, SQL Server, Azure DevOps, Angular &amp;amp; Ionic.
+Computer Graphics is a field of great interest to me.</description>
     </item>
     
   </channel>

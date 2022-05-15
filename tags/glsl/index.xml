@@ -6,14 +6,14 @@
     <description>Recent content in GLSL on Pedro Gomes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</managingEditor>
-    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</webMaster>
+    <managingEditor>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</managingEditor>
+    <webMaster>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</webMaster>
     <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedromgomes.github.io/tags/glsl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vulkan &amp; OpenGL Memory Benchmark</title>
       <link>https://pedromgomes.github.io/post/vulkan_opengl/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.com)</author>
+      <author>pedro.gomes.prog@gmail.com (pedromgomes.github.io)</author>
       <guid>https://pedromgomes.github.io/post/vulkan_opengl/</guid>
       <description>Project aimed to learn both Vulkan, a fairly recent cross-platform 3D graphics and computing API, and OpenGL, another 3D graphics API that exists for much longer. It is about memory, an analysis on how both APIs abstract memory and memory usage with a simple performance test.
 Graphics APIs are often mentioned when discussing performance in video games. Vulkan, OpenGL, and DirectX are famous C/C++ APIs used to access GPU. While the CPU is a general-purpose powerhouse, GPUs are exceptionally good at parallel processing of repetitive tasks and fundamental to render graphics onto the screen.</description>
